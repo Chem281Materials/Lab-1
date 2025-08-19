@@ -60,6 +60,7 @@ xeyes # sanity check
 python3 app.py
 ```
 You should be able to view the puzzle game!
+
 ![Tile Game](tile_puzzle_game.png)
 
 ## ✅ Tasks
