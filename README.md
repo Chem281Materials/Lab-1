@@ -24,6 +24,15 @@ The goal of this lab is to:
 ./docker_run.sh # Don't run it right away, but look at the command and get a feel of whats going on.
 ```
 ### FOR WINDOWS USERS OR WSL2
+
+### 0. **Need Xhost**
+```
+which xhost # if you get a path you can move on
+
+# If you don't have xhost, do the following:
+sudo apt update
+sudo apt install x11-utils
+```
 ### 1. **Download `VcXsrv`**
 
 Download from this link and install: (https://vcxsrv.com/)
@@ -40,12 +49,13 @@ It might also be a good idea to add this to your .bashrc so it automatically get
 ### 3. **Open Xlaunch**
 
 Open xlaunch should be installed under Program Files/VcXsrv/xlaunch
-
+```
 Choose: Multiple windows
-Display number: 0
+Display number: -1
 Uncheck Native OpenGL
 Check "Disable access control" (important!)
 Finish and leave VcXsrv running
+```
 
 From your linux terminal try running xeyes.
 ```
