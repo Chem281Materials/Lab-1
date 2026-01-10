@@ -42,7 +42,7 @@ Move (w/a/s/d):
 
 ## ✅ Tasks
 
-### Find and fix 3 Bugs
+### Find and fix bugs
 This is a simple puzzle game where you type w/a/s/d to move the missing tile. It is following typical action movement in video games where w is for up, s is for down, a is left and d is right. The goal is to arrange the tiles in the following formation:
 ```
 +---+---+---+
