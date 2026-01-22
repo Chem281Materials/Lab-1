@@ -56,7 +56,7 @@ This is a simple puzzle game where you type w/a/s/d to move the missing tile. It
 ```
 If you are successful, the game should print `🎉 Puzzle solved!`, and then exit giving you back control of the terminal.
 
-There are 2 bugs hidden amongst the game code which you need to solve using the `VIM` text editor. The first bug is that currently there are no boundary conditions for the game. This means that you can wrap around from top to bottom and left to right like a rubik's cube. This makes the game much easier and is not the current functionality, fix it so that there are boundary conditions and moves that try to `wrap` around are illegal and should print a statement when they are attempted. The second bug is less obvious but while you're playing around with the game you should run into it eventually.
+There are 2 bugs hidden amongst the game code which you need to solve using the `VIM` text editor. The first bug is that currently there are no boundary conditions for the game. This means that you can wrap around from top to bottom and left to right like a rubik's cube. This makes the game much easier and is not the correct functionality, fix it so that there are boundary conditions and moves that try to `wrap` around are illegal and should print a statement when they are attempted. The second bug is less obvious but while you're playing around with the game you should run into it eventually.
 
 Fix both bugs to create a fully functioning terminal based game!
 
