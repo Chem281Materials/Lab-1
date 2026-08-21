@@ -12,15 +12,15 @@ The goal of this lab is to:
 
 ## 🗂️ Provided
 
-- A `docker` file to set up the dev environment.
+- A `container` file to set up the dev environment.
 - A complete terminal based puzzle game with 2 bugs in `app.py`.
 
 ---
 
 ## 💻 Setup
 ```bash
-./docker_build.sh # You may need to chmod +x
-./docker_run.sh # You may need to chmod +x
+./podman_build.sh # You may need to chmod +x
+./podman_run.sh # You may need to chmod +x
 python3 app.py
 ```
 
@@ -61,4 +61,4 @@ There are 2 bugs hidden amongst the game code which you need to solve using the 
 Fix both bugs to create a fully functioning terminal based game!
 
 ### Extra time
-Look into the docker file and the bash scripts to get a sense of how the environment is set up and how environment variables are being passed around.
+Look into the container file and the bash scripts to get a sense of how the environment is set up and how environment variables are being passed around.
